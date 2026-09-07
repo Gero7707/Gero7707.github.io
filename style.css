@@ -153,6 +153,10 @@ a {
   padding: 7mm 7mm 6mm;
 }
 
+.identity{
+    display: block !important;
+  }
+
 .identity {
   margin-bottom: 1.8mm;
 }
@@ -163,6 +167,10 @@ a {
   font-size: 1.75rem;
   line-height: 1.08;
   letter-spacing: -0.03em;
+}
+
+.identity-aside{
+  display: none !important;
 }
 
 .job-title {
@@ -346,6 +354,22 @@ a {
 
   .project-heading a {
     white-space: normal;
+  }
+
+  
+}
+
+@media (max-width: 400px){
+  .identity{
+    display: none !important;
+  }
+
+  .identity-aside{
+    display: block !important;
+  }
+
+  .identity-aside h1{
+    font-size: 1.7rem;
   }
 }
 
