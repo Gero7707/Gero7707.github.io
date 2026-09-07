@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Vincent DIDIER GERAGHTY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="cv">
+    <aside class="sidebar">
+      <div class="photo-placeholder" aria-label="Emplacement photo">
+        <img src="photo-cv.jpg" alt="">
+      </div>
+      
+      <section class="contact">
+        <p><i class="fa-solid fa-location-dot"></i><span>Moutiers-les-Mauxfaits</span></p>
+        <p><i class="fa-solid fa-phone"></i><span>06.14.04.70.30</span></p>
+        <p><i class="fa-solid fa-envelope"></i><a href="mailto:vince.geraghty@gmail.com">vince.geraghty@gmail.com</a></p>
+        <p><i class="fa-brands fa-github"></i><a href="https://github.com/Gero7707" target="_blank" rel="noopener noreferrer">github.com/Gero7707</a></p>
+      </section>
+      
+      <div class="separator"></div>
+      <br>
+      <section class="goal">
+        <p><i class="fa-solid fa-bullseye"></i><span>Titre RNCP niveau 5 en cours : examen en novembre 2026.</span></p>
+        <p><i class="fa-solid fa-graduation-cap"></i><span>Poursuite prévue en Bachelor (RNCP niveau 6)</span></p>
+        <p><i class="fa-solid fa-briefcase"></i><span>Recherche une alternance en contrat de professionnalisation à partir de décembre 2026, en Vendée ou alentours, télétravail partiel possible.</span></p>
+      </section>
+      
+      <section>
+        <h2><i class="fa-solid fa-graduation-cap"></i>Formation</h2>
+        <div class="timeline-item">
+          <h3>2025 - 2026</h3>
+          <p>Développeur Web et Web Mobile, Studi, Titre professionnel RNCP niveau 5 (en cours)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2015 - 2018</h3>
+          <p>DEM musique classique, Conservatoire de Thiers (63)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2010 - 2011</h3>
+          <p>DEM musiques actuelles, CNIMA UV validés,</p>
+        </div>
+        <div class="timeline-item">
+          <h3>1996</h3>
+          <p>Niveau baccalauréat littéraire</p>
+        </div>
+      </section>
+      
+      <section>
+        <h2><i class="fa-solid fa-language"></i>Langues et centres d'intérêt</h2>
+        <p><strong>Anglais :</strong> bilingue (origine irlandaise, plusieurs années en Angleterre)</p>
+        <p><strong>Français :</strong> langue de travail</p>
+
+        <div class="interests">
+          <span><i class="fa-solid fa-football"></i> Rugby à 5 (FCY)</span>
+          <span><i class="fa-solid fa-bicycle"></i> VTT</span>
+          <span><i class="fa-solid fa-table-tennis-paddle-ball"></i> badminton</span>
+          <span><i class="fa-solid fa-guitar"></i> guitare</span>
+          <span><i class="fa-solid fa-car"></i> Permis B</span>
+        </div>
+      </section>
+    </aside>
+
+    <section class="content">
+      <header class="identity">
+        <h1>Vincent DIDIER GERAGHTY</h1>
+        <p class="job-title">Développeur web et web mobile</p>
+        <p class="job-subtitle">Full Stack PHP</p>
+      </header>
+      
+      <section class="block">
+        <h2><i class="fa-solid fa-user"></i>Profil</h2>
+        <div class="card">
+          <p>Développeur web full-stack PHP en reconversion professionnelle, actuellement en formation chez Studi (titre RNCP niveau 5). Je conçois et déploie des applications web en PHP/MySQL avec une architecture MVC, de la conception de la base de données jusqu'à la mise en production. Bilingue anglais, autonome et rigoureux, je recherche une alternance me permettant de mettre mes compétences en pratique au sein d'une équipe de développement.</p>
+        </div>
+      </section>
+      
+      <section class="block">
+        <h2><i class="fa-solid fa-gears"></i>Compétences techniques</h2>
+        <div class="skills-grid">
+          <div class="skill-label">Back-end</div>
+          <div class="skill-value">PHP 8.3, architecture MVC sans framework, MySQL, API REST, sécurité (CSRF, requêtes préparées)</div>
+
+          <div class="skill-label">Front-end</div>
+          <div class="skill-value">HTML, CSS3, JavaScript, Bootstrap 5, Swiper.js, Three.js, PWA, SEO</div>
+
+          <div class="skill-label">Outils</div>
+          <div class="skill-value">Docker, Git/GitHub, Linux(WSL, Ubuntu), VS Code, MySQL Workbench, MongoDB Compass</div>
+
+          <div class="skill-label">Déploiement</div>
+          <div class="skill-value">OVH, AlwaysData, Cloudflare R2, FTP, phpMyAdmin, configuration DNS et .htaccess</div>
+        </div>
+      </section>
+      
+      <section class="block">
+        <h2><i class="fa-solid fa-folder-open"></i>Projets</h2>
+
+        <article class="project-card">
+          <div class="project-heading">
+            <h3>TournoiR5 : Gestion de tournois de rugby à 5</h3>
+            <a href="https://tournoi-r5.fr/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              tournoi-r5.fr
+            </a>
+          </div>
+          <p>Application PHP MVC complète : affichage des scores en direct, génération de phases finales, gestion multi-catégories et poules de consolation, double rôle admin/opérateur, protection CSRF, routage en URL propres, PWA. Utilisée en conditions réelles lors d'un tournoi officiel en avril 2025. Reconduite pour la saison 2026/2027.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-heading">
+            <h3>OrnithoQuiz : Quiz d'identification des chants d'oiseaux</h3>
+            <a href="https://ornitho-quiz.fr/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              ornitho-quiz.fr
+            </a>
+          </div>
+          <p>Base d'environ 1000 espèces et 3800 fichiers audio, sons issus de xeno-canto, stockage sur Cloudflare R2. Intégration de l'API BirdNET pour l'identification sonore et renvoi vers les fiches espèces du site. Environnement Docker, configuration par variables d'environnement, sans dépendance externe.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-heading">
+            <h3>Vite et Gourmand : Projet de formation évalué pour le titre RNCP</h3>
+            <a href="http://restaurationviteetgourmand.alwaysdata.net/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              restaurationviteetgourmand.alwaysdata.net
+            </a>
+          </div>
+          <p>Application PHP MVC front et back, intégration Bootstrap 5 et carrousel Swiper.js.</p>
+        </article>
+      </section>
+      
+      <section class="block experience">
+        <h2><i class="fa-solid fa-briefcase"></i>Expérience professionnelle</h2>
+
+        <article class="experience-item">
+          <h3>2018 - 2025 : Facteur polyvalent, La Poste (CDI)</h3>
+          <p>Gestion autonome d'une tournée quotidienne, distribution d'objets suivis et recommandés, utilisation quotidienne de l'outil numérique FACTEO. Habilitations VAE, STABY, VL. Formation « Yellow Belt » (amélioration continue) et « Action managériale » (CPF).</p>
+        </article>
+
+        <article class="experience-item">
+          <h3>2000 - 2022 : Professeur de guitare (CNIMA, Musicacondat, cours particuliers)</h3>
+          <p>Transmission de savoirs techniques à des publics variés, adaptation du rythme d'apprentissage, suivi individuel sur plusieurs années.</p>
+        </article>
+
+        <article class="experience-item">
+          <h3>1995 - 2018 : Production et logistique (missions intérim)</h3>
+          <p>Agent de production, pilote de dépalettiseur, préparation de commandes, contrôle qualité emballage.</p>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
