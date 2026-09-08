@@ -359,7 +359,7 @@ a {
   
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
   .identity{
     display: none !important;
   }
