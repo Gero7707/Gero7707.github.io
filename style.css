@@ -76,6 +76,11 @@ a {
   color: #9aa6af;
 }
 
+.contact{
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
 .contact p,
 .goal p {
   display: grid;
@@ -93,6 +98,11 @@ a {
 
 .contact a {
   overflow-wrap: anywhere;
+}
+
+.tel-email{
+  display: flex;
+  gap: 1rem;
 }
 
 .separator {
@@ -150,7 +160,7 @@ a {
 }
 
 .content {
-  padding: 7mm 7mm 6mm;
+  padding: 7mm 1mm 6mm;
 }
 
 .identity{
@@ -187,6 +197,13 @@ a {
   font-weight: 600;
 }
 
+.alternance{
+  margin: 0.5mm 0 0;
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .block {
   margin-top: 3mm;
 }
@@ -196,7 +213,7 @@ a {
   align-items: center;
   gap: 8px;
   margin: 0 0 2mm;
-  padding-bottom: 1.8mm;
+  padding-bottom: 1mm;
   border-bottom: 2px solid var(--blue);
   color: var(--navy);
   font-size: 0.98rem;
@@ -240,7 +257,7 @@ a {
 
 .skill-label,
 .skill-value {
-  padding: 1.6mm 2mm;
+  padding: 1mm 1mm;
   border-bottom: 1px solid var(--blue-border);
 }
 
@@ -371,6 +388,11 @@ a {
   .identity-aside h1{
     font-size: 1.7rem;
   }
+
+  .job-title, .job-subtitle, .alternance{
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
 }
 
 @page {
@@ -412,7 +434,11 @@ a {
   }
 
   .content {
-    padding: 10mm 9mm 8mm !important;
+    padding: 1mm 2mm 8mm !important;
+  }
+
+  .block{
+    margin-top: 0.5mm;
   }
 
   .project-heading {
